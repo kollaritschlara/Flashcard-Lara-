@@ -3,11 +3,11 @@
 :root{
 --text-color: #DBE4EF;
 --card-front-color: #144480;
---card-back-color: #00F4BF;
+--card-back-color: #610088;
 }
 
 body{
-    background-color: bisque;
+    background-color: rgb(245, 203, 255);
     font-family: Bai Jamjuree;
 }
 
@@ -29,7 +29,7 @@ body{
 .cartao__conteudo{
     background: var(--card-front-color);
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgb(208, 127, 255);
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
